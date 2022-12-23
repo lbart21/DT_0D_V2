@@ -1,7 +1,7 @@
-from Algorithms.DesignToolAlgorithmV1_0D.ComponentModels.meshObject import meshObject
-from Algorithms.DesignToolAlgorithmV1_0D.ComponentModels.CombAndNozzleCellWithHeat import CombAndNozzleCellWithHeat
-from Algorithms.DesignToolAlgorithmV1_0D.ComponentModels.NozzleOutletInterfaceChoked import NozzleOutletInterfaceChokedFlow
-from Algorithms.DesignToolAlgorithmV1_0D.ComponentModels.CombustionChamberInletInterface import CombustionChamberInletInterface
+from Algorithms.DesignToolAlgorithmV2_0D.ComponentModels.mesh_object import MeshObject
+from Algorithms.DesignToolAlgorithmV2_0D.ComponentModels.combustor_and_nozzle_cell_with_heat import CombAndNozzleCellWithHeat
+from Algorithms.DesignToolAlgorithmV2_0D.ComponentModels.nozzle_outlet_interface_choked import NozzleOutletInterfaceChokedFlow
+from Algorithms.DesignToolAlgorithmV2_0D.ComponentModels.combustion_chamber_inlet_interface import CombustionChamberInletInterface
 
 import math as m
 
@@ -12,7 +12,7 @@ class JoinedCombAndNozzleChokedOutlet():
         """
         TotalGeometry = [D_in, D_out, L_comb, L_noz]
         """
-        self.meshObject = meshObject(nCells=1)
+        self.meshObject = MeshObject(nCells=1)
         fluidPairs = {}
         fluidPairs["fluid"] = Eilmer_fluid_file  #Dictionary of strings of .lua file names to generate Eilmer GasModels and hence GasStates
         self.meshObject.componentLabels = [componentLabel]

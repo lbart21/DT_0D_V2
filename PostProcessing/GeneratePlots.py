@@ -1,7 +1,7 @@
-from Algorithms.DesignToolAlgorithmV1_0D.PostProcessing.CellDataFileToObject import FormCellDataFromFile
-from Algorithms.DesignToolAlgorithmV1_0D.PostProcessing.InterfaceDataFileToObject import FormInterfaceDataFromFile
-from Algorithms.DesignToolAlgorithmV1_0D.PostProcessing.SIUnitsDictionary import SIUnits
-from Algorithms.DesignToolAlgorithmV1_0D.PostProcessing.Symbols import symbols
+from Algorithms.DesignToolAlgorithmV2_0D.PostProcessing.CellDataFileToObject import FormCellDataFromFile
+from Algorithms.DesignToolAlgorithmV2_0D.PostProcessing.InterfaceDataFileToObject import FormInterfaceDataFromFile
+from Algorithms.DesignToolAlgorithmV2_0D.PostProcessing.SIUnitsDictionary import SIUnits
+from Algorithms.DesignToolAlgorithmV2_0D.PostProcessing.Symbols import symbols
 
 import matplotlib.pyplot as plt
 

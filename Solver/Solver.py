@@ -1,6 +1,6 @@
-from Algorithms.DesignToolAlgorithmV1_0D.Solver.WriteCellDataToFile import WriteCellDataToFile
-from Algorithms.DesignToolAlgorithmV1_0D.Solver.WriteInterfaceDataToFile import WriteInterfaceDataToFile
-from Algorithms.DesignToolAlgorithmV1_0D.Integrate.Integrate import Integrate
+from Algorithms.DesignToolAlgorithmV2_0D.Solver.WriteCellDataToFile import WriteCellDataToFile
+from Algorithms.DesignToolAlgorithmV2_0D.Solver.WriteInterfaceDataToFile import WriteInterfaceDataToFile
+from Algorithms.DesignToolAlgorithmV2_0D.Integrate.Integrate import Integrate
 
 class Solver():
     def __init__(self, meshObject, dt_flag, tFinal, dataSaveDt, cell_flow_property_variables_to_write, \

@@ -1,5 +1,5 @@
 from gdtk.gas import GasModel, GasState
-from Algorithms.DesignToolAlgorithmV1_0D.FluidModel.FlowState import FlowState
+from Algorithms.DesignToolAlgorithmV2_0D.FluidModel.FlowState import FlowState
 class CombAndNozzleCellWithHeat():
     def __init__(self, TotalGeometry, heatFlux, fluidPair, cell_ID, label) -> None:
 

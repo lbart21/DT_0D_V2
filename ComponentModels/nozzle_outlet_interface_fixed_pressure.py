@@ -1,5 +1,5 @@
 from gdtk.gas import GasModel, GasState
-from Algorithms.DesignToolAlgorithmV1_0D.FluidModel.FlowState import FlowState
+from Algorithms.DesignToolAlgorithmV2_0D.FluidModel.FlowState import FlowState
 class NozzleOutletInterfaceFixedP():
     def __init__(self, interface_ID, fluidPair, backPressure) -> None:
         self.interface_ID = interface_ID
