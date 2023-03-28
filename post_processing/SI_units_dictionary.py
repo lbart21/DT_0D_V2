@@ -1,4 +1,4 @@
-SIUnits = {
+SI_UNITS = {
     "T"                         : r'$K$', #K
     "T_G"                       : r'$K$',
     "T_L"                       : r'$K$',
@@ -39,7 +39,7 @@ SIUnits = {
     "vel_y_l"                   : r'$ms^{-1}$',
     "vel_y_1"                   : r'$ms^{-1}$',
     "vel_y_2"                   : r'$ms^{-1}$',
-    
+
     "vel_y_ave"                 : r'$ms^{-1}$',
 
     "vel_z"                     : r'$ms^{-1}$', #ms^-1

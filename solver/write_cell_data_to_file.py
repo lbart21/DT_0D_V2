@@ -1,5 +1,5 @@
 import os
-def WriteCellDataToFile(cell, time, flow_property_variables):
+def write_cell_data_to_file(cell, time, flow_property_variables):
     cwd = os.getcwd()
     cell_ID = cell.cell_ID
     filename = "DataAtCellID" + str(cell_ID) + ".txt"

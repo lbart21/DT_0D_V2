@@ -1,5 +1,5 @@
 import os
-def WriteInterfaceDataToFile(interface, time, flow_property_variables):
+def write_interface_data_to_file(interface, time, flow_property_variables):
     cwd = os.getcwd()
     interface_ID = interface.interface_ID
     filename = "DataAtInterfaceID" + str(interface_ID) + ".txt"

@@ -1,4 +1,4 @@
-symbols = {
+SYMBOLS = {
     "T"                     : r'$T$',
     "T_G"                   : r'$T_{G}$',
     "T_L"                   : r'$T_{L}$',

@@ -1,5 +1,7 @@
 """
-File for calculating fluxes from stagnation state to static conditions downstream.
+Function: File for calculating fluxes from stagnation state to static conditions downstream.
+Author: Luke Bartholomew
+Edits:
 """
 def generate_stagnation_flux(interface, stag_conditions, internal_cell):
     """
@@ -7,10 +9,7 @@ def generate_stagnation_flux(interface, stag_conditions, internal_cell):
     stag_condition = list
     internal_cell = cell object
     """
-    T_ = 1
-    T_ += 1
-    x = None
-    x += 1
+
     [p_stag, T_stag] = stag_conditions[1]
     p_int_orig = interface.interface_state.fluid_state.p
     T_int_orig = interface.interface_state.fluid_state.T
